@@ -1,4 +1,4 @@
-const color = {
+const colorlist = {
     "colors": [  //array
       {   //array[0]
         "color": "black",
@@ -56,6 +56,6 @@ const color = {
     ]
 }
 
-console.log(color.colors[2].code.hex);
-console.log(color.colors[3].code.rgba[3]);
-console.log(color.colors[5].type);
+console.log(colorlist.colors[2].code.hex);
+console.log(colorlist.colors[3].code.rgba[3]);
+console.log(colorlist.colors[5].type);
